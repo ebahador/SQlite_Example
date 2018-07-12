@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bahador.sqlite_example.MainActivity">
+    <item
+        android:id="@+id/read"
+        android:orderInCategory="100"
+        android:title="READ FROM DATABASE"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        android:title="UPDATE TABLE"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="DELETE ROW"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+</menu>

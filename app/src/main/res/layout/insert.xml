@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name_insert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/surname_insert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="SURNAME"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/phone_insert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="PHONE"
+        android:inputType="phone"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Btn_Insert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="INSERT ALL DATA"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
